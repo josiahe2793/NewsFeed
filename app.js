@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    let url = "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ba4ab04ba426466ebc8b7bc39b149e86";
+    let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ba4ab04ba426466ebc8b7bc39b149e86";
 
     $.ajax({
         url:url,
